@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: red;
+}
+</style>
+</head>
+<body>
+<a href="" >cadastrar cliente</a>  <a href="extrato.html" >extrato do cliente</a>  <a href="relatorio.html" >relatorio de todas as tranzaçoes realizadas no dia</a> <a href="saldo.html" >saldo da conta de todos os clientes</a>
+<h1>CADASTRAR CLIENTE</h1>
+<form method="POST" action="cadastrar.php">
+<label>NOME:</label><input type="text" name="nome" id="nome"><br>
+<label>SENHA:</label><input type="password" name="senha" id="senha"><br>
+<label>IDADE:</label><input type="text" name="idade" id="idade"><br>
+<label>RUA:</label><input type="text" name="rua" id="idade"><br>
+<label>BAIRRO:</label><input type="text" name="bairro" id="idade"><br>
+<label>CIDADE:</label><input type="text" name="cidade" id="idade"><br>
+<input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">
+</form>
+</body>
+</html>
